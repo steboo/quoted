@@ -6,14 +6,20 @@ It is also a straightforward example of writing TCP and UDP servers in C with PO
 
 # Usage
 
-By default, quoted listens port 17 with TCP:
+By default, quoted listens on port 17 with TCP:
 
-  $ ./quoted
+```
+$ ./quoted
+```
 
 To listen on UDP instead, use the `-u` option:
 
-  $ ./quoted -u
+```
+$ ./quoted -u
+```
 
 To change the default port, use the `-p` option:
 
-  $ ./quoted -p 8888
+```
+$ ./quoted -p 8888
+```
